@@ -11,3 +11,9 @@
     'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '{942049667673190}');
 fbq('track', 'PageView');
+
+document
+    .querySelector(".whatsapp-icon")
+    .addEventListener("click", function () {
+        location.href = "https://wa.link/tis8y8";
+    });
