@@ -1,4 +1,6 @@
-!function (f, b, e, v, n, t, s) {
+// Script to implement Meta Pixel to see how many people accessed the website and clicked on the link.
+
+/*!function (f, b, e, v, n, t, s) {
     if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
             n.callMethod.apply(n, arguments) : n.queue.push(arguments)
@@ -10,10 +12,10 @@
 }(window, document, 'script',
     'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '{942049667673190}');
-fbq('track', 'PageView');
+fbq('track', 'PageView');*/
 
 document
     .querySelector(".whatsapp-icon")
     .addEventListener("click", function () {
-        location.href = "https://wa.link/tis8y8";
+        location.href = "https://wa.link/9hr6b5";
     });
