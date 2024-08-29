@@ -1,3 +1,3 @@
 ﻿# landing-page
 
-This project is a landing page for a personal project idealized by a friend, containing a simple front-end config, alongside with a button redirecting the user who wants to know more about it to a new Whatsapp chat with the person behind the project.
+This project is a landing page containing a simple front-end config, alongside with a button redirecting, to a new Whatsapp chat, the user who wants to contact me.
