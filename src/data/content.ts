@@ -9,7 +9,7 @@ export const content = {
     about: {
         title: "Sobre Mim",
         text: "Sou um desenvolvedor de software com experiência em grandes players do mercado financeiro e governamental. Minha abordagem é técnica e orientada a negócios: escrevo código que é fácil de manter, escalável e que resolve problemas reais, sem promessas vazias.",
-        image: "/foto-perfil.jpg"
+        image: import.meta.env.BASE_URL + "foto-perfil.jpg"
     },
     services: {
         title: "Serviços Especializados",
