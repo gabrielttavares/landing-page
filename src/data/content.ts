@@ -2,13 +2,13 @@ export const content = {
     hero: {
         title: "Soluções de software sólidas para",
         highlight: "negócios complexos",
-        description: "Desenvolvedor sênior focado em entregar sistemas sob medida, APIs robustas e arquiteturas escaláveis para empresas que não podem parar.",
+        description: "Desenvolvedor focado em entregar sistemas sob medida, APIs robustas e arquiteturas escaláveis para empresas que não podem parar.",
         cta: "Solicitar Orçamento",
         secondaryCta: "Ver Projetos"
     },
     about: {
         title: "Sobre Mim",
-        text: "Sou um desenvolvedor de software com experiência em grandes players do mercado financeiro e governamental. Minha abordagem é técnica e orientada a negócios: escrevo código que é fácil de manter, escalável e que resolve problemas reais, sem promessas vazias.",
+        text: "Sou um desenvolvedor de software com experiência em grandes empresas desde o mercado financeiro e governamental, até startups e empreendedores. Minha abordagem é técnica e orientada a negócios: escrevo código que é fácil de manter, escalável e que resolve problemas reais.",
         image: import.meta.env.BASE_URL + "foto-perfil.jpg"
     },
     services: {
@@ -26,8 +26,8 @@ export const content = {
                 cta: "analisar_arquitetura"
             },
             {
-                title: "Websites de Alta Performance",
-                description: "Desenvolvimento de sites rápidos, otimizados para SEO e focados em conversão, utilizando as melhores práticas de engenharia web.",
+                title: "Websites e Apps de Alta Performance",
+                description: "Desenvolvimento de sites e apps rápidos, otimizados para SEO e focados em conversão, utilizando as melhores práticas de engenharia web e mobile.",
                 cta: "construir_site"
             },
             {
@@ -43,15 +43,15 @@ export const content = {
             {
                 title: "Setor Financeiro Global (Exadel / BTG Pactual)",
                 role: "Software Developer",
-                description: "Desenvolvimento de plataformas de trading e gestão de ativos com foco em alta disponibilidade e segurança para o mercado internacional."
+                description: "Desenvolvimento de plataformas de gestão de ativos e corretagem com foco em alta disponibilidade e segurança para o mercado internacional."
             },
             {
-                title: "Inovação e Startups (IEBT / North Star)",
+                title: "Inovação, Freelance e Startups (IEBT / MaxMilhas / North Star Inc)",
                 role: "Software Developer",
-                description: "Criação de produtos digitais do zero, entrega contínua e foco em validação rápida de mercado (Product-Market Fit)."
+                description: "Criação de produtos digitais do zero, entrega contínua e foco em validação de mercado."
             },
             {
-                title: "Setor Público (Tribunal de Contas de MG)",
+                title: "Setor Público (TCE-MG)",
                 role: "Software Developer",
                 description: "Modernização de sistemas governamentais e soluções de transparência lidando com grandes volumes de dados."
             }
@@ -62,7 +62,7 @@ export const content = {
         items: [
             "Empresas que buscam profissionalismo",
             "Startups em fase de crescimento",
-            "Times de TI precisando de reforço sênior",
+            "Times de TI precisando de reforço técnico",
             "Empreendedores com produtos digitais"
         ]
     },
@@ -93,7 +93,7 @@ export const content = {
         }
     },
     footer: {
-        copyright: `© ${new Date().getFullYear()} Gabriel Tavares. Todos os direitos reservados.`
+        copyright: `© ${new Date().getFullYear()} Gabriel T. Tavares. Todos os direitos reservados.`
     }
 };
 
