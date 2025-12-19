@@ -12,23 +12,28 @@ export const content = {
         image: import.meta.env.BASE_URL + "foto-perfil.jpg"
     },
     services: {
-        title: "Serviços Especializados",
+        title: "Como Posso Ajudar",
+        subtitle: "Soluções técnicas desenhadas para objetivos de negócio específicos.",
         items: [
             {
-                title: "Desenvolvimento Sob Medida",
-                description: "Criação de sistemas web e mobile, desde o planejamento até a implantação, focados nas regras de negócio da sua empresa."
+                title: "Tirar sua ideia do papel",
+                description: "Transformo conceitos em MVPs Escaláveis e funcionais rapidamente para validar seu negócio no mercado, sem desperdício de tempo ou recursos.",
+                cta: "estimar_projeto"
             },
             {
-                title: "APIs e Integrações",
-                description: "Conexão entre sistemas legados e novas tecnologias, garantindo fluxo de dados seguro e eficiente."
+                title: "Conectar seus sistemas",
+                description: "Desenvolvo APIs robustas e integrações seguras para eliminar gargalos operacionais e garantir que suas ferramentas conversem entre si.",
+                cta: "analisar_arquitetura"
             },
             {
-                title: "Websites Institucionais",
-                description: "Presença digital profissional, rápida e otimizada para conversão, sem templates genéricos lentos."
+                title: "Websites de Alta Performance",
+                description: "Desenvolvimento de sites rápidos, otimizados para SEO e focados em conversão, utilizando as melhores práticas de engenharia web.",
+                cta: "construir_site"
             },
             {
-                title: "Manutenção & Evolução",
-                description: "Refatoração de código legado, melhoria de performance e implementação de novas funcionalidades em sistemas existentes."
+                title: "Escalar e Modernizar",
+                description: "Refatoração estratégica de sistemas legados, melhorando performance e reduzindo custos de manutenção a longo prazo.",
+                cta: "modernizar_legado"
             }
         ]
     },

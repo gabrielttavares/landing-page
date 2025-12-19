@@ -33,3 +33,42 @@ export const CheckIcon = () => (
     </svg>
 );
 
+export const RocketIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+        <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+    </svg>
+);
+
+export const LayersIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+        <polyline points="2 17 12 22 22 17"></polyline>
+        <polyline points="2 12 12 17 22 12"></polyline>
+    </svg>
+);
+
+export const GlobeIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="2" y1="12" x2="22" y2="12"></line>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+    </svg>
+);
+
+export const CpuIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+        <rect x="9" y="9" width="6" height="6"></rect>
+        <line x1="9" y1="1" x2="9" y2="4"></line>
+        <line x1="15" y1="1" x2="15" y2="4"></line>
+        <line x1="9" y1="20" x2="9" y2="23"></line>
+        <line x1="15" y1="20" x2="15" y2="23"></line>
+        <line x1="20" y1="9" x2="23" y2="9"></line>
+        <line x1="20" y1="14" x2="23" y2="14"></line>
+        <line x1="1" y1="9" x2="4" y2="9"></line>
+        <line x1="1" y1="14" x2="4" y2="14"></line>
+    </svg>
+);
