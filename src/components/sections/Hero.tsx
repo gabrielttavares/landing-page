@@ -7,30 +7,34 @@ export default function Hero() {
     const { hero } = content;
     
     return (
-        <section className="px-6 py-12 md:py-24 max-w-4xl mx-auto">
-            <motion.div {...fadeInUp}>
-                <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 mb-6 leading-tight font-serif">
-                    {hero.title} <span className="text-slate-500">{hero.highlight}</span>.
-                </h1>
-                <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
-                    {hero.description}
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                    <a 
-                        href="#contato" 
-                        className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-slate-900 rounded-lg hover:bg-slate-800 transition-all focus:ring-2 focus:ring-offset-2 focus:ring-slate-900"
-                    >
-                        {hero.cta}
-                    </a>
-                    <a 
-                        href="#experiencia" 
-                        className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-slate-700 bg-slate-100 rounded-lg hover:bg-slate-200 transition-all"
-                    >
-                        {hero.secondaryCta}
-                    </a>
-                </div>
-            </motion.div>
+        <section className="relative px-6 py-20 md:py-32 max-w-7xl mx-auto overflow-hidden">
+             {/* Tech Grid Background with Radial Mask */}
+            <div className="absolute inset-0 bg-grid-slate-100 [mask-image:radial-gradient(ellipse_at_center,white,transparent)] pointer-events-none" />
+
+            <div className="relative z-10 max-w-4xl mx-auto text-center">
+                <motion.div {...fadeInUp}>
+                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-slate-900 mb-8 leading-[1.1] font-serif">
+                        {hero.title} <span className="text-slate-500 italic font-serif">{hero.highlight}</span>.
+                    </h1>
+                    <p className="text-xl md:text-2xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
+                        {hero.description}
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a 
+                            href="#contato" 
+                            className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-slate-900 rounded-full hover:bg-slate-800 transition-all hover:scale-105 hover:shadow-lg"
+                        >
+                            {hero.cta}
+                        </a>
+                        <a 
+                            href="#experiencia" 
+                            className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-slate-700 bg-white border border-slate-200 rounded-full hover:bg-slate-50 transition-all hover:scale-105 hover:shadow-md"
+                        >
+                            {hero.secondaryCta}
+                        </a>
+                    </div>
+                </motion.div>
+            </div>
         </section>
     );
 }
-
