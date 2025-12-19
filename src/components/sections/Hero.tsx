@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         <section className="px-6 py-12 md:py-24 max-w-4xl mx-auto">
             <motion.div {...fadeInUp}>
-                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+                <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 mb-6 leading-tight font-serif">
                     {hero.title} <span className="text-slate-500">{hero.highlight}</span>.
                 </h1>
                 <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
