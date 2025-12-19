@@ -17,11 +17,6 @@ export default function Hero() {
 
             <div className="relative z-10 max-w-4xl mx-auto text-center">
                 <motion.div {...fadeInUp}>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-sm font-mono text-slate-600 mb-8">
-                        <span className="w-2 h-2 rounded-full bg-teal-500 animate-pulse" />
-                        <span>status: available_for_hire</span>
-                    </div>
-
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-slate-900 mb-8 leading-[1.1] font-serif">
                         {hero.title} <span className="text-slate-500 italic font-serif">{hero.highlight}</span>.
                     </h1>

@@ -38,17 +38,17 @@ export const content = {
             {
                 title: "Setor Financeiro Global (Exadel / BTG Pactual)",
                 role: "Software Developer",
-                description: "Atuação no desenvolvimento e sustentação de plataformas de trading e gestão de ativos. Foco em alta disponibilidade, segurança e processamento de dados financeiros críticos. Experiência com protocolos complexos e rigorosos padrões de qualidade de código para o mercado internacional."
-            },
-            {
-                title: "Setor Público (Tribunal de Contas de MG)",
-                role: "Software Developer",
-                description: "Modernização de sistemas governamentais, lidando com grandes volumes de dados e regras de negócio complexas. Desenvolvimento de soluções focadas em transparência e eficiência operacional para o setor público."
+                description: "Desenvolvimento de plataformas de trading e gestão de ativos com foco em alta disponibilidade e segurança para o mercado internacional."
             },
             {
                 title: "Inovação e Startups (IEBT / North Star)",
                 role: "Software Developer",
-                description: "Criação de produtos digitais do zero e evolução de startups. Capacidade de adaptação rápida, entrega contínua e foco em validação de produto no mercado (Product-Market Fit)."
+                description: "Criação de produtos digitais do zero, entrega contínua e foco em validação rápida de mercado (Product-Market Fit)."
+            },
+            {
+                title: "Setor Público (Tribunal de Contas de MG)",
+                role: "Software Developer",
+                description: "Modernização de sistemas governamentais e soluções de transparência lidando com grandes volumes de dados."
             }
         ]
     },

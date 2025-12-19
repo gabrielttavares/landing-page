@@ -6,6 +6,10 @@ export default function Header() {
             <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
                 <span className="font-bold text-lg tracking-tight text-slate-900">Gabriel Tavares</span>
                 <nav className="flex items-center gap-4">
+                    <div className="hidden md:flex items-center gap-2 px-2 py-1 rounded-full bg-slate-50 border border-slate-200 text-xs font-mono text-slate-600">
+                        <span className="w-1.5 h-1.5 rounded-full bg-teal-500 animate-pulse" />
+                        <span>available_for_hire</span>
+                    </div>
                     <a href="#contato" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
                         Fale Comigo
                     </a>
