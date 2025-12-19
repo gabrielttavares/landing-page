@@ -29,6 +29,7 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         serif: ['"Playfair Display"', 'serif'],
+        mono: ['"Fira Code"', 'monospace'],
       },
       animation: {
         blob: "blob 7s infinite",

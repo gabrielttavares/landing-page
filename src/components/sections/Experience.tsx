@@ -40,8 +40,8 @@ export default function Experience() {
                              {/* Content Card */}
                             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 md:p-8 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl hover:border-teal-500/30 transition-all duration-300 hover:bg-slate-800/80">
                                 <h3 className="text-xl md:text-2xl font-bold text-white mb-2 font-serif">{item.title}</h3>
-                                <div className="inline-block px-3 py-1 mb-4 text-xs font-mono text-teal-300 bg-teal-500/10 rounded-full border border-teal-500/20">
-                                    {item.role}
+                                <div className="inline-block px-3 py-1 mb-4 text-xs font-mono text-teal-300 bg-slate-950 rounded border border-teal-500/30 shadow-sm">
+                                    &gt; {item.role}
                                 </div>
                                 <p className="text-slate-400 leading-relaxed">
                                     {item.description}
