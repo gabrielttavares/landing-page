@@ -1,6 +1,9 @@
 import React from 'react';
+import { content } from '../../data/content';
 
 export default function Header() {
+    const { contact } = content;
+
     return (
         <header className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-slate-100">
             <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -10,8 +13,13 @@ export default function Header() {
                         <span className="w-1.5 h-1.5 rounded-full bg-teal-500 animate-pulse" />
                         <span>available_for_hire</span>
                     </div>
-                    <a href="#contato" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
-                        Fale Comigo
+                    <a 
+                        href={contact.social.whatsapp}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+                    >
+                        Fale Diretamente Comigo
                     </a>
                 </nav>
             </div>
