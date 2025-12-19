@@ -46,7 +46,7 @@ export const content = {
                 description: "Desenvolvimento de plataformas de gestão de ativos e corretagem com foco em alta disponibilidade e segurança para o mercado internacional."
             },
             {
-                title: "Inovação, Freelance e Startups (IEBT / MaxMilhas / North Star Inc)",
+                title: "Inovação, Freelance e Startups (IEBT / MaxMilhas / MCPark /North Star Inc)",
                 role: "Software Developer",
                 description: "Criação de produtos digitais do zero, entrega contínua e foco em validação de mercado."
             },
